@@ -1,28 +1,28 @@
 import React, { Component } from 'react';
 import { Navbar, NavbarBrand, Card, Button, CardBody, CardImg, CardTitle, CardText, CardImgOverlay, CardFooter, CardHeader } from 'reactstrap';
 import './App.css';
-import { COSTUMERS } from './data/costumer';
+import { CUSTOMERS } from './data/customer';
 import Avatar from '@material-ui/core/Avatar';
 
 
 
 
 const App = () => (
-    <div className="costumer ">
+    <div className="customer col-12">
 
-        {COSTUMERS.map((costumer) => {
+        {CUSTOMERS.map((customer) => {
             return (
                 
-                <div className="costumers ">
+                <div className="customers ">
                     <div className="row header  mt-5 ml-3">
-                        <Avatar alt="Remy Sharp" src={costumer.dp} />
-                        <p className="name"> {costumer.name}</p>
+                        <Avatar alt="Remy Sharp" src={customer.dp} />
+                        <p className="name"> {customer.name}</p>
                     </div>
                     <div className=" img  ">
-                        <img src={costumer.image} alt={costumer.name} />
+                        <img src={customer.image} alt={customer.name} />
                     </div>
                     <div className="  description ">
-                        <p id="des">{costumer.description}</p>
+                        <p id="des">{customer.description}</p>
                     </div>
                     <div className=" button">
                         <button type="button" class="btn btn-info">Accept</button>

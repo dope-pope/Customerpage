@@ -1,10 +1,10 @@
-.costumer {
+.customer {
     display: flex;
     flex-wrap: wrap;
    
 }
 
-.costumers {
+.customers {
     height: 40em;
     width: 30em;
     font-family: 'Quicksand', sans-serif;
