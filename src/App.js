@@ -18,7 +18,7 @@ const App = () => (
                         <Avatar alt="Remy Sharp" src={customer.dp} />
                         <p className="name"> {customer.name}</p>
                     </div>
-                    <div className=" img  ">
+                       <div className=" img  ">
                         <img src={customer.image} alt={customer.name} />
                     </div>
                     <div className="  description ">

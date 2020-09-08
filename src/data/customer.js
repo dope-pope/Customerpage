@@ -7,7 +7,7 @@ export const CUSTOMERS =
             category: 'mains',
             dp: '../../assets/dp.jpg',
             price: '4.99',
-            description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
+            description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives.',
         },
         {
             id: 1,
@@ -35,6 +35,6 @@ export const CUSTOMERS =
             category: 'dessert',
             dp: '../../assets/dp.jpg',
             price: '2.99',
-            description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker crust and spiced with Indian cardamoms',
+            description: 'A delectable, semi-sweet New York Style Cheese Cake, with Graham cracker .',
         }
     ];
